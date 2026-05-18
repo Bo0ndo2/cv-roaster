@@ -126,14 +126,7 @@ The PDF is converted to base64 and sent directly to Gemini as inline data — no
 
 ## Deployment
 
-The easiest way to deploy is [Vercel](https://vercel.com):
-
-1. Push to GitHub
-2. Import the repo on Vercel
-3. Add `GEMINI_API_KEY` in environment variables
-4. Deploy
-
-Make sure to set the `maxDuration` in `route.ts` to match your Vercel plan's function timeout limit.
+(https://vercel.com):
 
 ---
 
@@ -148,3 +141,9 @@ Make sure to set the `maxDuration` in `route.ts` to match your Vercel plan's fun
 ## License
 
 MIT
+
+##screenshots
+
+![image](./screenshots/1.png)
+
+![image](./screenshots/2.png)
